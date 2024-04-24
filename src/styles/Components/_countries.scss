@@ -1,0 +1,41 @@
+.countries h1{
+    display: flex;
+    justify-content: center;
+}
+
+.countries ul{
+    display: grid;
+    grid-template-columns: repeat(6, 6fr);
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+.countries{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.countries .radio-container{
+    display: flex;
+    justify-content: center;
+    background: black;
+    margin-bottom: 1.5rem;
+    border: solid  black;
+    border-radius: 1.5rem;
+    width: 1450px;
+    padding: 0.5rem;
+    box-shadow: 10px 6px 61px 4px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 10px 6px 61px 4px rgba(0,0,0,0.39);
+    -moz-box-shadow: 10px 6px 61px 4px rgba(0,0,0,0.39);
+}
+
+.abcde{
+    color: white;
+}
+
+
+
+
